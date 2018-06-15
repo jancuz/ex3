@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MyLibrary;
 
 namespace ex3
@@ -17,6 +13,9 @@ namespace ex3
             bool ans = (y <= 3 * x + 2 && y <= -3 * x + 2 && y >= -1);
 
             Console.WriteLine("Ответ: " + ans);
+
+            Console.WriteLine("Нажмите Enter для завершения работы програмы");
+            Console.ReadLine();
         }
     }
 }
